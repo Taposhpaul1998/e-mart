@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // "poppins": ["Poppins", serif]
+        "poppins": ["Poppins", "serif"],
+        "inter": ["Inter", "serif"],
+      },
+      colors: {
+        'text2': "rgb(0,0,0,1)"
       }
     },
   },
