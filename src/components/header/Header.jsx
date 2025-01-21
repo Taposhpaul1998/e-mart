@@ -22,7 +22,7 @@ function Header() {
 
 
   return (
-    <div className='mb-6'>
+    <>
       {/* top header  */}
       <div className='py-[15px] bg-black '>
         <div className='text-center xl:w-[1170px] w-11/12 mx-auto flex lg:justify-end justify-between items-center lg:gap-[231px] gap-4'>
@@ -75,7 +75,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
