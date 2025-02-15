@@ -28,7 +28,7 @@ function Header() {
         <div className='text-center xl:w-[1170px] w-11/12 mx-auto flex lg:justify-end justify-between items-center lg:gap-[231px] gap-4'>
           <p className=' text-secondary1 font-normal font-poppins md:text-sm text-xs'>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <Link className='font-semibold pl-2 leading-6 underline' to='#shop'> ShopNow </Link></p>
           {/* language selector  */}
-          <select className=' border-none bg-black pr-[11px] font-poppins font-normal rounded-md text-sm text-secondary1 focus:outline-none  focus:border-none'>
+          <select className=' border-none cursor-pointer bg-black pr-[11px] font-poppins font-normal rounded-md text-sm text-secondary1 focus:outline-none  focus:border-none'>
             <option>English</option>
             <option>French</option>
             <option>Spanish</option>
